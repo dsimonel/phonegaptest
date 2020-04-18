@@ -1,0 +1,140 @@
+#MCollapsibleSetExample {
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+#MCollapsibleSetExample #MCollapsibleSetExample_form {
+margin-bottom: 0px;
+}
+#MCollapsibleSetExample #MCollapsibleSetExample_table {
+width: 768px;
+height: 1024px;
+border-width:0;
+border-collapse:separate;
+}
+#MCollapsibleSetExample #MCollapsibleSetExample_table td, #MCollapsibleSetExample #MCollapsibleSetExample_table th {
+padding:0;
+vertical-align:top;
+}
+#MCollapsibleSetExample #lblDescription_outer {
+z-index: 0;
+left: 14px;
+width: 739px;
+height: 155px;
+position: absolute;
+top: 75px;
+
+}
+#MCollapsibleSetExample #lblDescription {
+ font-family: Arial;
+ font-size: 14px;
+  width: 739px;
+height: 155px;
+}
+#MCollapsibleSetExample #mcsMain_outer {
+z-index: 1;
+left: 23px;
+width: 722px;
+height: 227px;
+position: absolute;
+top: 235px;
+
+}
+#MCollapsibleSetExample #mlPanelThree_outer {
+z-index: 0;
+left: 59px;
+width: 411px;
+height: 187px;
+position: relative;
+padding:5px;
+clear:both;
+
+}
+#MCollapsibleSetExample #mlPanelThree {
+width:411px;
+height:187px;
+}
+#MCollapsibleSetExample #mcbPanelThree_outer {
+z-index: 1;
+left: 80px;
+width: 315px;
+height: 91px;
+position: relative;
+padding:5px;
+clear:both;
+
+}
+#MCollapsibleSetExample #mcbPanelThree + label[for=mcbPanelThree]{ 
+width: 315px;
+height: 91px;
+} 
+#MCollapsibleSetExample #mbPanelOne_outer {
+z-index: 2;
+left: 51px;
+width: 169px;
+height: 91px;
+position: relative;
+padding:5px;
+clear:both;
+
+}
+#MCollapsibleSetExample #mbPanelOne_outer > div{ 
+width: 169px;
+height: 91px;
+} 
+#MCollapsibleSetExample #mpTitle_outer {
+z-index: 2;
+left: 0px;
+width: 768px;
+height: 43px;
+position: absolute;
+top: 0px;
+
+}
+#MCollapsibleSetExample #mpTitle {
+width: 768px;
+height: 43px;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+#MCollapsibleSetExample #mpTitle_table {
+width: 768px;
+height: 43px;
+border-spacing: 0;
+border: 0;
+border-collapse: collapse;
+box-sizing: border-box;
+}
+#MCollapsibleSetExample #mlBack_outer {
+z-index: 0;
+left: 8px;
+width: 107px;
+height: 33px;
+position: absolute;
+top: 5px;
+
+}
+#MCollapsibleSetExample #mlBack {
+width:107px;
+height:33px;
+}
+#MCollapsibleSetExample #lblTitle_outer {
+z-index: 1;
+left: 231px;
+width: 275px;
+height: 35px;
+position: absolute;
+top: 8px;
+
+}
+#MCollapsibleSetExample #lblTitle {
+ font-family: Arial;
+ font-size: 16px;
+ color: Black;
+font-weight: bold;
+ width: 275px;
+height: 35px;
+text-align:center;
+}

@@ -1,0 +1,153 @@
+#MCollapsibleExample {
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+#MCollapsibleExample #MCollapsibleExample_form {
+margin-bottom: 0px;
+}
+#MCollapsibleExample #MCollapsibleExample_table {
+width: 768px;
+height: 1024px;
+border-width:0;
+border-collapse:separate;
+}
+#MCollapsibleExample #MCollapsibleExample_table td, #MCollapsibleExample #MCollapsibleExample_table th {
+padding:0;
+vertical-align:top;
+}
+#MCollapsibleExample #mcPanel_outer {
+z-index: 0;
+left: 15px;
+width: 740px;
+height: 419px;
+position: absolute;
+top: 188px;
+
+}
+#MCollapsibleExample #mcPanel_table {
+width: 740px;
+height: 419px;
+border-spacing: 0;
+border: 0;
+border-collapse: collapse;
+box-sizing: border-box;
+}
+#MCollapsibleExample #lblPanelText_outer {
+z-index: 0;
+left: 10px;
+width: 730px;
+height: 20px;
+position: absolute;
+top: 89px;
+
+}
+#MCollapsibleExample #lblPanelText {
+ font-family: Helvetica, Arial, sans-serif;
+ font-size: 13px;
+  width: 730px;
+height: 20px;
+}
+#MCollapsibleExample #mcSubPanel_outer {
+z-index: 1;
+left: 10px;
+width: 730px;
+height: 205px;
+position: absolute;
+top: 143px;
+
+}
+#MCollapsibleExample #mcSubPanel_table {
+width: 730px;
+height: 205px;
+border-spacing: 0;
+border: 0;
+border-collapse: collapse;
+box-sizing: border-box;
+}
+#MCollapsibleExample #lblSubPanelText_outer {
+z-index: 0;
+left: 9px;
+width: 700px;
+height: 51px;
+position: absolute;
+top: 66px;
+
+}
+#MCollapsibleExample #lblSubPanelText {
+ font-family: Tahoma;
+ font-size: 11px;
+  width: 700px;
+height: 51px;
+}
+#MCollapsibleExample #lblDescription_outer {
+z-index: 1;
+left: 15px;
+width: 739px;
+height: 123px;
+position: absolute;
+top: 51px;
+
+}
+#MCollapsibleExample #lblDescription {
+ font-family: Arial;
+ font-size: 14px;
+  width: 739px;
+height: 123px;
+}
+#MCollapsibleExample #mpTitle_outer {
+z-index: 2;
+left: 0px;
+width: 768px;
+height: 43px;
+position: absolute;
+top: 0px;
+
+}
+#MCollapsibleExample #mpTitle {
+width: 768px;
+height: 43px;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+#MCollapsibleExample #mpTitle_table {
+width: 768px;
+height: 43px;
+border-spacing: 0;
+border: 0;
+border-collapse: collapse;
+box-sizing: border-box;
+}
+#MCollapsibleExample #mlBack_outer {
+z-index: 0;
+left: 8px;
+width: 107px;
+height: 33px;
+position: absolute;
+top: 5px;
+
+}
+#MCollapsibleExample #mlBack {
+width:107px;
+height:33px;
+}
+#MCollapsibleExample #Label1_outer {
+z-index: 1;
+left: 253px;
+width: 227px;
+height: 31px;
+position: absolute;
+top: 12px;
+
+}
+#MCollapsibleExample #Label1 {
+ font-family: Arial;
+ font-size: 16px;
+ color: White;
+font-weight: bold;
+ width: 227px;
+height: 31px;
+text-align:center;
+}

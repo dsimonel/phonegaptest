@@ -1,0 +1,250 @@
+#IndexMPage {
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+background-image: url(1);
+}
+#IndexMPage #IndexMPage_form {
+margin-bottom: 0px;
+}
+#IndexMPage #mlMButton_outer {
+z-index: 0;
+left: 18px;
+width: 325px;
+height: 43px;
+position: absolute;
+top: 140px;
+
+}
+#IndexMPage #mlMButton {
+width:325px;
+height:43px;
+}
+#IndexMPage #mlMCollapsibleSet_outer {
+z-index: 1;
+left: 413px;
+width: 325px;
+height: 42px;
+position: absolute;
+top: 213px;
+
+}
+#IndexMPage #mlMCollapsibleSet {
+width:325px;
+height:42px;
+}
+#IndexMPage #mlMcheckboxGroup_outer {
+z-index: 2;
+left: 413px;
+width: 325px;
+height: 43px;
+position: absolute;
+top: 289px;
+
+}
+#IndexMPage #mlMcheckboxGroup {
+width:325px;
+height:43px;
+}
+#IndexMPage #mlCheckbox_outer {
+z-index: 3;
+left: 18px;
+width: 325px;
+height: 43px;
+position: absolute;
+top: 289px;
+
+}
+#IndexMPage #mlCheckbox {
+width:325px;
+height:43px;
+}
+#IndexMPage #mpTitle_outer {
+z-index: 4;
+left: 0px;
+width: 768px;
+height: 43px;
+position: absolute;
+top: 0px;
+
+}
+#IndexMPage #mpTitle {
+width: 768px;
+height: 43px;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+#IndexMPage #mpTitle_table {
+width: 768px;
+height: 43px;
+border-spacing: 0;
+border: 0;
+border-collapse: collapse;
+box-sizing: border-box;
+}
+#IndexMPage #lblHeader_outer {
+z-index: 0;
+left: 11px;
+width: 745px;
+height: 27px;
+position: absolute;
+top: 8px;
+
+}
+#IndexMPage #lblHeader {
+ font-family: Arial;
+ font-size: 16px;
+ color: White;
+font-weight: bold;
+ width: 745px;
+height: 27px;
+text-align:center;
+}
+#IndexMPage #mlMCollapsible_outer {
+z-index: 5;
+left: 18px;
+width: 325px;
+height: 43px;
+position: absolute;
+top: 212px;
+
+}
+#IndexMPage #mlMCollapsible {
+width:325px;
+height:43px;
+}
+#IndexMPage #mlMlink_outer {
+z-index: 6;
+left: 413px;
+width: 325px;
+height: 43px;
+position: absolute;
+top: 140px;
+
+}
+#IndexMPage #mlMlink {
+width:325px;
+height:43px;
+}
+#IndexMPage #mlMEdit_outer {
+z-index: 7;
+left: 18px;
+width: 324px;
+height: 43px;
+position: absolute;
+top: 361px;
+
+}
+#IndexMPage #mlMEdit {
+width:324px;
+height:43px;
+}
+#IndexMPage #mlMComboBox_outer {
+z-index: 8;
+left: 413px;
+width: 325px;
+height: 43px;
+position: absolute;
+top: 361px;
+
+}
+#IndexMPage #mlMComboBox {
+width:325px;
+height:43px;
+}
+#IndexMPage #mlMRadioButton_outer {
+z-index: 9;
+left: 18px;
+width: 325px;
+height: 43px;
+position: absolute;
+top: 433px;
+
+}
+#IndexMPage #mlMRadioButton {
+width:325px;
+height:43px;
+}
+#IndexMPage #mlMRadioGroup_outer {
+z-index: 10;
+left: 413px;
+width: 325px;
+height: 43px;
+position: absolute;
+top: 433px;
+
+}
+#IndexMPage #mlMRadioGroup {
+width:325px;
+height:43px;
+}
+#IndexMPage #mlMSlider_outer {
+z-index: 11;
+left: 18px;
+width: 325px;
+height: 43px;
+position: absolute;
+top: 505px;
+
+}
+#IndexMPage #mlMSlider {
+width:325px;
+height:43px;
+}
+#IndexMPage #mlMToggle_outer {
+z-index: 12;
+left: 413px;
+width: 325px;
+height: 43px;
+position: absolute;
+top: 505px;
+
+}
+#IndexMPage #mlMToggle {
+width:325px;
+height:43px;
+}
+#IndexMPage #mlMToolBar_outer {
+z-index: 13;
+left: 18px;
+width: 324px;
+height: 43px;
+position: absolute;
+top: 577px;
+
+}
+#IndexMPage #mlMToolBar {
+width:324px;
+height:43px;
+}
+#IndexMPage #mlMList_outer {
+z-index: 14;
+left: 413px;
+width: 325px;
+height: 43px;
+position: absolute;
+top: 577px;
+
+}
+#IndexMPage #mlMList {
+width:325px;
+height:43px;
+}
+#IndexMPage #Label1_outer {
+z-index: 15;
+left: 18px;
+width: 720px;
+height: 67px;
+position: absolute;
+top: 57px;
+
+}
+#IndexMPage #Label1 {
+ font-family: Arial;
+ font-size: 12px;
+ font-weight: bold;
+ width: 720px;
+height: 67px;
+}

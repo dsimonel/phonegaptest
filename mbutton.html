@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html  DIR=ltr >
+<head>
+<title>MButton</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="viewport" content="width=768, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<script src="rpcl-bin/jquerymobile/js/base64.js"></script>
+<script src="rpcl-bin/jquery/jquery-1.7.1.min.js"></script>
+<script src="rpcl-bin/jquerymobile/js/functions.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.mobile-1.1.1.css" />
+<script>
+jQuery(document).bind('mobileinit', function(){
+  jQuery.extend(jQuery.mobile , {
+    loadingMessage: 'Loading',
+    pageLoadErrorMessage: 'Error Loading Page',
+    autoInitialize: true,
+    defaultPageTransition: 'slide',
+    subPageUrlKey: 'ui-page',
+    activePageClass: 'ui-page-active',
+    activeBtnClass: 'ui-btn-active',
+    minScrollBack: 150,
+    touchOverflowEnabled:true 
+  });
+  jQuery.mobile.page.prototype.options.degradeInputs.range='text';
+});</script>
+<script src="rpcl-bin/jquerymobile/js/jquery.mobile-1.1.1.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.general.css" />
+<script src="rpcl-bin/jquerymobile/js/cordova-1.8.1.js"></script>
+<script src="rpcl-bin/jquerymobile/js/phonegap.mobile.js"></script>
+</head>
+<body  >
+<div data-role="page"  id="MButtonExample"  >
+<link id="MButtonExample_css" rel="stylesheet" href="mbutton.css" />
+<script id="MButtonExample_js" src="mbutton.js"></script>
+<form id="MButtonExample_form" name="MButtonExample_form" method="post"   target="_self"  action="/mbutton.php"><input type="hidden" name="serverevent" value=""><input type="hidden" name="serverparams" value=""><input type="hidden" id="mbtClickSubmitEvent" name="mbtClickSubmitEvent" value="" />
+<table id="MButtonExample_table"><tr><td>
+<div id="lblMessage_outer"  >
+<div id="lblMessage"     ></div>
+</div>
+<div id="mbtJavaScript_outer"  >
+<input type="button" name="mbtJavaScript" value="Click to fire the javascript OnClick event"      tabindex="0"   data-fixedsize='true' data-theme='a' data-icon='alert' data-iconpos='bottom' id='mbtJavaScript'    />
+</div>
+<div id="lblDescription_outer"  >
+<div id="lblDescription"     ><P>MButtons are form buttons with a different appearance.</P>
+<UL>
+<LI>Control the <STRONG>Theme</STRONG> and color variation of a group of buttons&nbsp;with the&nbsp;MobileTheme component associated to them.
+<LI>Change the <STRONG>SystemIcon</STRONG> to a different icon.
+<LI>Change the <STRONG>IconPos</STRONG> value to set where the icon will be placed.
+<LI>Select your own <STRONG>Icon</STRONG> </LI></UL>
+<P>&nbsp;</P></div>
+</div>
+<div id="mbtClick_outer"  >
+<input type="submit" name="mbtClick" value="Submit button"    tabindex="0"   data-fixedsize='true' data-theme='e' data-icon='mbtClick' data-iconpos='right' id='mbtClick'    />
+</div>
+<div id="MPanel1_outer"  >
+<div data-role="content" data-theme="a"  id="MPanel1" ><div id="mlBack_outer"  >
+<A HREF="index.html" id="mlBack" 
+             data-icon='home' data-iconpos='left' data-fixedsize='true' data-role='button'  >Home</a>
+</div>
+<div id="Label1_outer"  >
+<div id="Label1"     >MButton</div>
+</div>
+</div>
+
+</div>
+</td></tr></table>
+</form></div>
+</body>
+</html>
+<!-- MButtonExample end -->

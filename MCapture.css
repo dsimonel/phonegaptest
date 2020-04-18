@@ -1,0 +1,94 @@
+#MCaptureExample {
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+#MCaptureExample #MCaptureExample_form {
+margin-bottom: 0px;
+}
+#MCaptureExample #MCaptureExample_table {
+width: 320px;
+height: 460px;
+border-width:0;
+border-collapse:separate;
+}
+#MCaptureExample #MCaptureExample_table td, #MCaptureExample #MCaptureExample_table th {
+padding:0;
+vertical-align:top;
+}
+#MCaptureExample #mpResults_outer {
+z-index: 0;
+left: 10px;
+width: 300px;
+height: 363px;
+position: absolute;
+top: 14px;
+
+}
+#MCaptureExample #mpResults {
+width: 300px;
+height: 363px;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+#MCaptureExample #mpResults_table {
+width: 300px;
+height: 363px;
+border-spacing: 0;
+border: 0;
+border-collapse: collapse;
+box-sizing: border-box;
+}
+#MCaptureExample #mbCapture_outer {
+z-index: 1;
+left: 10px;
+width: 115px;
+height: 43px;
+position: absolute;
+top: 437px;
+
+}
+#MCaptureExample #mbCapture_outer > div{ 
+width: 115px;
+height: 43px;
+} 
+#MCaptureExample #mrgOption_outer {
+z-index: 2;
+left: 10px;
+width: 301px;
+height: 51px;
+position: absolute;
+top: 377px;
+
+}
+#MCaptureExample #mrgOption_table {
+padding:0px;
+border-spacing:0px;
+height:49px;
+width:301px;
+table-layout:fixed;
+}
+#MCaptureExample #mrgOption_table label {
+height:51px;
+width: 100.33333333333px;
+overflow: hidden;
+}
+#MCaptureExample #mrgOption_table label {
+width:100px;
+margin-right: -1px;
+}
+#MCaptureExample #mlBack_outer {
+z-index: 3;
+left: 160px;
+width: 150px;
+height: 35px;
+position: absolute;
+top: 437px;
+
+}
+#MCaptureExample #mlBack {
+width:150px;
+height:35px;
+}

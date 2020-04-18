@@ -1,0 +1,119 @@
+#MComboBoxExample {
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+#MComboBoxExample #MComboBoxExample_form {
+margin-bottom: 0px;
+}
+#MComboBoxExample #MComboBoxExample_table {
+width: 768px;
+height: 1024px;
+border-width:0;
+border-collapse:separate;
+}
+#MComboBoxExample #MComboBoxExample_table td, #MComboBoxExample #MComboBoxExample_table th {
+padding:0;
+vertical-align:top;
+}
+#MComboBoxExample #MComboBox2_outer {
+z-index: 0;
+left: 437px;
+width: 299px;
+height: 58px;
+position: absolute;
+top: 391px;
+
+}
+#MComboBoxExample #MComboBox2_outer .ui-btn { 
+width: 299px;
+height: 58px;
+} 
+#MComboBoxExample #MComboBox1_outer {
+z-index: 1;
+left: 14px;
+width: 395px;
+height: 59px;
+position: absolute;
+top: 390px;
+
+}
+#MComboBoxExample #MComboBox1_outer .ui-btn { 
+width: 395px;
+height: 59px;
+} 
+  .ui-icon-MComboBox1 {
+    background-image:url(icon.png);
+    background-size: 18px 18px;
+  }
+         #MComboBoxExample #Label1_outer {
+z-index: 2;
+left: 14px;
+width: 739px;
+height: 299px;
+position: absolute;
+top: 67px;
+
+}
+#MComboBoxExample #Label1 {
+ font-family: Arial;
+ font-size: 14px;
+  width: 739px;
+height: 299px;
+}
+#MComboBoxExample #MPanel1_outer {
+z-index: 3;
+left: 0px;
+width: 768px;
+height: 43px;
+position: absolute;
+top: 0px;
+
+}
+#MComboBoxExample #MPanel1 {
+width: 768px;
+height: 43px;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+#MComboBoxExample #MPanel1_table {
+width: 768px;
+height: 43px;
+border-spacing: 0;
+border: 0;
+border-collapse: collapse;
+box-sizing: border-box;
+}
+#MComboBoxExample #mlBack_outer {
+z-index: 0;
+left: 8px;
+width: 107px;
+height: 33px;
+position: absolute;
+top: 5px;
+
+}
+#MComboBoxExample #mlBack {
+width:107px;
+height:33px;
+}
+#MComboBoxExample #Label2_outer {
+z-index: 1;
+left: 277px;
+width: 219px;
+height: 35px;
+position: absolute;
+top: 8px;
+
+}
+#MComboBoxExample #Label2 {
+ font-family: Arial;
+ font-size: 16px;
+ color: Black;
+font-weight: bold;
+ width: 219px;
+height: 35px;
+text-align:center;
+}

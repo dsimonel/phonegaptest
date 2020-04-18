@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html  DIR=ltr >
+<head>
+<title>MCollapsibleSet</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="viewport" content="width=768, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<script src="rpcl-bin/jquerymobile/js/base64.js"></script>
+<script src="rpcl-bin/jquery/jquery-1.7.1.min.js"></script>
+<script src="rpcl-bin/jquerymobile/js/functions.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.mobile-1.1.1.css" />
+<script>
+jQuery(document).bind('mobileinit', function(){
+  jQuery.extend(jQuery.mobile , {
+    loadingMessage: 'Loading',
+    pageLoadErrorMessage: 'Error Loading Page',
+    autoInitialize: true,
+    defaultPageTransition: 'slide',
+    subPageUrlKey: 'ui-page',
+    activePageClass: 'ui-page-active',
+    activeBtnClass: 'ui-btn-active',
+    minScrollBack: 150,
+    touchOverflowEnabled:true 
+  });
+  jQuery.mobile.page.prototype.options.degradeInputs.range='text';
+});</script>
+<script src="rpcl-bin/jquerymobile/js/jquery.mobile-1.1.1.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.general.css" />
+<script src="rpcl-bin/jquerymobile/js/cordova-1.8.1.js"></script>
+<script src="rpcl-bin/jquerymobile/js/phonegap.mobile.js"></script>
+</head>
+<body  >
+<div data-role="page"  id="MCollapsibleSetExample"  >
+<link id="MCollapsibleSetExample_css" rel="stylesheet" href="mcollapsibleset.css" />
+<script id="MCollapsibleSetExample_js" src="mcollapsibleset.js"></script>
+<form id="MCollapsibleSetExample_form" name="MCollapsibleSetExample_form" method="post"   target="_self"  action="/mcollapsibleset.php"><input type="hidden" name="serverevent" value=""><input type="hidden" name="serverparams" value="">
+<table id="MCollapsibleSetExample_table"><tr><td>
+<div id="lblDescription_outer"  >
+<div id="lblDescription"     ><P>MCollapsibleSet allows you to create a group of Panels. When one of the headers of the Panels in the group is clicked, the other ones get closed.</P>
+<UL>
+<LI>Control the <STRONG>Theme</STRONG> and color variation of a MCollapsibleSet with the MobileTheme component associated to it.
+<LI>Use <STRONG>Panels </STRONG>to create the different panels's headers 
+<LI><STRONG>ActiveLayer</STRONG> indicates the name of the panel  that is open.
+<LI>When a Panel is expanded, <STRONG>onExpand</STRONG> and <STRONG>onCollapse</STRONG> events are fired</LI></UL></div>
+</div>
+<div id="mcsMain_outer"  >
+<div data-role="collapsible-set" data-iconpos=left id="mcsMain" ><div data-role="collapsible" class="mcsMain_class" id="mcsMain0"  data-theme="a" >
+<h1>one</h1>
+<div><div id="mbPanelOne_outer"  >
+<input type="submit" name="mbPanelOne" value="Button of component ONE"    tabindex="0"   data-fixedsize='true' id='mbPanelOne'    />
+</div>
+</div></div><div data-role="collapsible" class="mcsMain_class" id="mcsMain1" data-collapsed="false" data-theme="a" >
+<h1>two</h1>
+<div><div id="mcbPanelThree_outer"  >
+<span id="mcbPanelThree_p"><input type="checkbox" name="mcbPanelThree" value="MCheckBox on Panel Two"    tabindex="0"   data-fixedsize='true' data-role='checkbox' id='mcbPanelThree'    /></span><span id="mcbPanelThree_l"><label for="mcbPanelThree">MCheckBox on Panel Two</label></span>
+</div>
+</div></div><div data-role="collapsible" class="mcsMain_class" id="mcsMain2"  data-theme="a" >
+<h1>three</h1>
+<div><div id="mlPanelThree_outer"  >
+<A HREF="#" id="mlPanelThree" 
+             data-fixedsize='true' data-role='button'  >MLink on Panel Three</a>
+</div>
+</div></div></div>
+</div>
+<div id="mpTitle_outer"  >
+<div data-role="content" data-theme="e"  id="mpTitle" ><div id="mlBack_outer"  >
+<A HREF="index.html" id="mlBack" 
+             data-icon='home' data-iconpos='left' data-fixedsize='true' data-role='button'  >Home</a>
+</div>
+<div id="lblTitle_outer"  >
+<div id="lblTitle"     >MCollapsibleSet</div>
+</div>
+</div>
+
+</div>
+</td></tr></table>
+</form></div>
+</body>
+</html>
+<!-- MCollapsibleSetExample end -->

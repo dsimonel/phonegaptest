@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html  DIR=ltr >
+<head>
+<title>MAccelerometer & MCamera example</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="viewport" content="width=320, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<script src="rpcl-bin/jquerymobile/js/base64.js"></script>
+<script src="rpcl-bin/jquery/jquery-1.7.1.min.js"></script>
+<script src="rpcl-bin/jquerymobile/js/functions.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.mobile-1.1.1.css" />
+<script>
+jQuery(document).bind('mobileinit', function(){
+  jQuery.extend(jQuery.mobile , {
+    loadingMessage: 'Loading',
+    pageLoadErrorMessage: 'Error Loading Page',
+    autoInitialize: true,
+    defaultPageTransition: 'slide',
+    subPageUrlKey: 'ui-page',
+    activePageClass: 'ui-page-active',
+    activeBtnClass: 'ui-btn-active',
+    minScrollBack: 150,
+    touchOverflowEnabled:true 
+  });
+  jQuery.mobile.page.prototype.options.degradeInputs.range='text';
+});</script>
+<script src="rpcl-bin/jquerymobile/js/jquery.mobile-1.1.1.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.general.css" />
+<script src="rpcl-bin/jquerymobile/js/cordova-1.8.1.js"></script>
+<script src="rpcl-bin/jquerymobile/js/phonegap.mobile.js"></script>
+</head>
+<body  >
+<div data-role="page"  id="MAccelerometerExample"  >
+<link id="MAccelerometerExample_css" rel="stylesheet" href="MAccelerometer.css" />
+<script id="MAccelerometerExample_js" src="MAccelerometer.js"></script>
+<form id="MAccelerometerExample_form" name="MAccelerometerExample_form" method="post"   target="_self"  action="/MAccelerometer.php"><input type="hidden" name="serverevent" value=""><input type="hidden" name="serverparams" value="">
+<table id="MAccelerometerExample_table"><tr><td>
+<div id="mtMotionSwitch_outer"  >
+<select name="mtMotionSwitch" id="mtMotionSwitch" size="4"   tabindex="0"     data-fixedsize='true' data-role='slider' data-class='mtMotionSwitch'   >	<option value="0" selected="selected"  >off</option>
+	<option value="1"  >on</option>
+</select>
+</div>
+<div id="lblMotion_outer"  >
+<div id="lblMotion"     >Motion</div>
+</div>
+<div id="mpBox_outer"  >
+<div data-role="content" data-theme="e"  id="mpBox" ><div id="Image_outer"  >
+<div id="Image_container" >
+<img id="Image" src="ball.png"   alt=""   /></div>
+</div>
+<div id="lblXAcceleration_outer"  >
+<div id="lblXAcceleration"     >lblXAcceleration</div>
+</div>
+<div id="lblYAcceleration_outer"  >
+<div id="lblYAcceleration"     >lblYAcceleration</div>
+</div>
+</div>
+
+</div>
+<div id="mlBack_outer"  >
+<A HREF="index.html" id="mlBack" 
+             data-fixedsize='true' data-role='button'  >Back</a>
+</div>
+</td></tr></table>
+</form></div>
+</body>
+</html>
+<!-- MAccelerometerExample end -->

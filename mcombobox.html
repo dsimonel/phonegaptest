@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html  DIR=ltr >
+<head>
+<title>MComboBox</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="viewport" content="width=768, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<script src="rpcl-bin/jquerymobile/js/base64.js"></script>
+<script src="rpcl-bin/jquery/jquery-1.7.1.min.js"></script>
+<script src="rpcl-bin/jquerymobile/js/functions.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.mobile-1.1.1.css" />
+<script>
+jQuery(document).bind('mobileinit', function(){
+  jQuery.extend(jQuery.mobile , {
+    loadingMessage: 'Loading',
+    pageLoadErrorMessage: 'Error Loading Page',
+    autoInitialize: true,
+    defaultPageTransition: 'slide',
+    subPageUrlKey: 'ui-page',
+    activePageClass: 'ui-page-active',
+    activeBtnClass: 'ui-btn-active',
+    minScrollBack: 150,
+    touchOverflowEnabled:true 
+  });
+  jQuery.mobile.page.prototype.options.degradeInputs.range='text';
+});</script>
+<script src="rpcl-bin/jquerymobile/js/jquery.mobile-1.1.1.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.general.css" />
+<script src="rpcl-bin/jquerymobile/js/cordova-1.8.1.js"></script>
+<script src="rpcl-bin/jquerymobile/js/phonegap.mobile.js"></script>
+</head>
+<body  >
+<div data-role="page"  id="MComboBoxExample"  >
+<link id="MComboBoxExample_css" rel="stylesheet" href="mcombobox.css" />
+<script id="MComboBoxExample_js" src="mcombobox.js"></script>
+<form id="MComboBoxExample_form" name="MComboBoxExample_form" method="post"   target="_self"  action="/mcombobox.php"><input type="hidden" name="serverevent" value=""><input type="hidden" name="serverparams" value="">
+<table id="MComboBoxExample_table"><tr><td>
+<div id="MComboBox2_outer"  >
+<select name="MComboBox2" id="MComboBox2" size="1"   tabindex="0"   data-fixedsize='true' data-theme='a' data-native-menu='false'   >	<option value=""  >Choose one</option>
+	<option value="1"  >Item1</option>
+	<option value="2"  >Item2</option>
+	<option value="3"  >Item3</option>
+</select>
+</div>
+<div id="MComboBox1_outer"  >
+<select name="MComboBox1[]" id="MComboBox1" size="1"  multiple="multiple" tabindex="0"   data-fixedsize='true' data-theme='e' data-icon='MComboBox1' data-iconpos='right' data-native-menu='false'   >	<option value="5"  >Item5</option>
+
+<optgroup label="Grupo 1">
+	<option value="1"  >Item1</option>
+	<option value="2"  >Item2</option>
+</optgroup>
+
+<optgroup label="Grupo 2">
+	<option value="3"  >Item3</option>
+	<option value="4"  >Item4</option>
+</optgroup>
+</select>
+</div>
+<div id="Label1_outer"  >
+<div id="Label1"     ><P>MComboBox allows you to create a combobox to select one or multiple values.</P>
+<UL>
+<LI>Control the <STRONG>Theme</STRONG> and color variation of a group of MComboBox with the MobileTheme component associated to them.
+<LI>Change the <STRONG>SystemIcon</STRONG> to a different icon.
+<LI>Change the <STRONG>IconPos</STRONG> value to set where the icon will be placed.
+<LI>Select your own <STRONG>Icon</STRONG>
+<LI>Use <STRONG>Multiselect</STRONG> to allow it to select multiple values.
+<LI>Indicate with <STRONG>isNative</STRONG> that the control will render in the browser's native mode.
+<LI>Add <STRONG>Items</STRONG> that will have the following attributes:
+<UL>
+<LI><STRONG>Text</STRONG> Text to display
+<LI><STRONG>Value</STRONG>  Value of the item
+<LI><STRONG>Group</STRONG>  Indicates the group that the item belongs to.
+<LI><STRONG>Disabled</STRONG>  Indicates if the itemis disabled
+<LI><STRONG>PlaceHolder</STRONG>: With this attribute it will become the NULL option of the select to force the user to select an element from the list.</LI></UL></LI></UL></div>
+</div>
+<div id="MPanel1_outer"  >
+<div data-role="content" data-theme="e"  id="MPanel1" ><div id="mlBack_outer"  >
+<A HREF="index.html" id="mlBack" 
+             data-icon='home' data-iconpos='left' data-fixedsize='true' data-role='button'  >Home</a>
+</div>
+<div id="Label2_outer"  >
+<div id="Label2"     >MComboBox</div>
+</div>
+</div>
+
+</div>
+</td></tr></table>
+</form></div>
+</body>
+</html>
+<!-- MComboBoxExample end -->

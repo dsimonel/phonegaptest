@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html  DIR=ltr >
+<head>
+<title>MCapture Example</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="viewport" content="width=320, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<script src="rpcl-bin/jquerymobile/js/base64.js"></script>
+<script src="rpcl-bin/jquery/jquery-1.7.1.min.js"></script>
+<script src="rpcl-bin/jquerymobile/js/functions.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.mobile-1.1.1.css" />
+<script>
+jQuery(document).bind('mobileinit', function(){
+  jQuery.extend(jQuery.mobile , {
+    loadingMessage: 'Loading',
+    pageLoadErrorMessage: 'Error Loading Page',
+    autoInitialize: true,
+    defaultPageTransition: 'slide',
+    subPageUrlKey: 'ui-page',
+    activePageClass: 'ui-page-active',
+    activeBtnClass: 'ui-btn-active',
+    minScrollBack: 150,
+    touchOverflowEnabled:true 
+  });
+  jQuery.mobile.page.prototype.options.degradeInputs.range='text';
+});</script>
+<script src="rpcl-bin/jquerymobile/js/jquery.mobile-1.1.1.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.general.css" />
+<script src="rpcl-bin/jquerymobile/js/cordova-1.8.1.js"></script>
+<script src="rpcl-bin/jquerymobile/js/phonegap.mobile.js"></script>
+</head>
+<body  >
+<div data-role="page"  id="MCaptureExample"  >
+<link id="MCaptureExample_css" rel="stylesheet" href="MCapture.css" />
+<script id="MCaptureExample_js" src="MCapture.js"></script>
+<form id="MCaptureExample_form" name="MCaptureExample_form" method="post"   target="_self"  action="/MCapture.php"><input type="hidden" name="serverevent" value=""><input type="hidden" name="serverparams" value="">
+<table id="MCaptureExample_table"><tr><td>
+<div id="mpResults_outer"  >
+<div data-role="content"   id="mpResults" ></div>
+
+</div>
+<div id="mbCapture_outer"  >
+<input type="button" name="mbCapture" value="Capture"      tabindex="0"   data-fixedsize='true' id='mbCapture'    />
+</div>
+<div id="mrgOption_outer"  >
+<table id="mrgOption_table"  title=""   data-role='controlgroup' data-fixedsize='true' data-type='horizontal' ><tr>
+<td class="td_with_radio_mobile"  ><input type="radio" id="mrgOption_0" name="mrgOption" value="0"  checked="checked"  tabindex="0"   data-fixedsize="true"  />
+<label  for="mrgOption_0" id="mrgOption_0_caption"   >Audio</label>
+</td>
+<td class="td_with_radio_mobile"  ><input type="radio" id="mrgOption_1" name="mrgOption" value="1"    tabindex="0"   data-fixedsize="true"  />
+<label  for="mrgOption_1" id="mrgOption_1_caption"   >Video</label>
+</td>
+<td class="td_with_radio_mobile"  ><input type="radio" id="mrgOption_2" name="mrgOption" value="2"    tabindex="0"   data-fixedsize="true"  />
+<label  for="mrgOption_2" id="mrgOption_2_caption"   >Image</label>
+</td>
+</tr>
+</table>
+</div>
+<div id="mlBack_outer"  >
+<A HREF="index.html" id="mlBack" 
+             data-fixedsize='true' data-role='button'  >Back</a>
+</div>
+</td></tr></table>
+</form></div>
+</body>
+</html>
+<!-- MCaptureExample end -->

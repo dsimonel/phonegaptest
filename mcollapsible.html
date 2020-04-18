@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html  DIR=ltr >
+<head>
+<title>MCollapsible</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="viewport" content="width=768, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<script src="rpcl-bin/jquerymobile/js/base64.js"></script>
+<script src="rpcl-bin/jquery/jquery-1.7.1.min.js"></script>
+<script src="rpcl-bin/jquerymobile/js/functions.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.mobile-1.1.1.css" />
+<script>
+jQuery(document).bind('mobileinit', function(){
+  jQuery.extend(jQuery.mobile , {
+    loadingMessage: 'Loading',
+    pageLoadErrorMessage: 'Error Loading Page',
+    autoInitialize: true,
+    defaultPageTransition: 'slide',
+    subPageUrlKey: 'ui-page',
+    activePageClass: 'ui-page-active',
+    activeBtnClass: 'ui-btn-active',
+    minScrollBack: 150,
+    touchOverflowEnabled:true 
+  });
+  jQuery.mobile.page.prototype.options.degradeInputs.range='text';
+});</script>
+<script src="rpcl-bin/jquerymobile/js/jquery.mobile-1.1.1.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.general.css" />
+<script src="rpcl-bin/jquerymobile/js/cordova-1.8.1.js"></script>
+<script src="rpcl-bin/jquerymobile/js/phonegap.mobile.js"></script>
+</head>
+<body  >
+<div data-role="page"  id="MCollapsibleExample"  >
+<link id="MCollapsibleExample_css" rel="stylesheet" href="mcollapsible.css" />
+<script id="MCollapsibleExample_js" src="mcollapsible.js"></script>
+<form id="MCollapsibleExample_form" name="MCollapsibleExample_form" method="post"   target="_self"  action="/mcollapsible.php"><input type="hidden" name="serverevent" value=""><input type="hidden" name="serverparams" value="">
+<table id="MCollapsibleExample_table"><tr><td>
+<div id="mcPanel_outer"  >
+<div data-role="collapsible" data-theme="a"  id="mcPanel" data-fixedsize="true" data-iconpos="left" data-collapsed="false" >	<h1>MCollapsible Panel</h1>
+<div id="lblPanelText_outer"  >
+<div id="lblPanelText"     ><P>All the elements included in this panel will be hidden when clicking on the "minus" sign</P></div>
+</div>
+<div id="mcSubPanel_outer"  >
+<div data-role="collapsible" data-theme="e"  id="mcSubPanel" data-fixedsize="true" data-iconpos="left" >	<h1>&lt;- Click to open</h1>
+<div id="lblSubPanelText_outer"  >
+<div id="lblSubPanelText"     ><P>This Panel was hidden because its <STRONG>isCollapsed</STRONG> property was set to true.</P>
+<P>As you can see MCollapsible controls can contain other MCollapsible controls.</P></div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div id="lblDescription_outer"  >
+<div id="lblDescription"     ><P>MCollapsible is a container with a Header that can show/hide its content. </P>
+<UL>
+<LI>Control the <STRONG>Theme</STRONG> and color variation of a group of MCollapsible with the MobileTheme component associated to them.
+<LI>Use <STRONG>Caption</STRONG> to change the text on the header
+<LI>With <STRONG>isCollapsed</STRONG> you can indicate if the container's content will be hidden/shown </LI></UL></div>
+</div>
+<div id="mpTitle_outer"  >
+<div data-role="content" data-theme="a"  id="mpTitle" ><div id="mlBack_outer"  >
+<A HREF="index.html" id="mlBack" 
+             data-icon='home' data-iconpos='left' data-fixedsize='true' data-role='button'  >Home</a>
+</div>
+<div id="Label1_outer"  >
+<div id="Label1"     >MCollapsible</div>
+</div>
+</div>
+
+</div>
+</td></tr></table>
+</form></div>
+</body>
+</html>
+<!-- MCollapsibleExample end -->

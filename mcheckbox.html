@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html  DIR=ltr >
+<head>
+<title>MCheckBox</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="viewport" content="width=768, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<script src="rpcl-bin/jquerymobile/js/base64.js"></script>
+<script src="rpcl-bin/jquery/jquery-1.7.1.min.js"></script>
+<script src="rpcl-bin/jquerymobile/js/functions.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.mobile-1.1.1.css" />
+<script>
+jQuery(document).bind('mobileinit', function(){
+  jQuery.extend(jQuery.mobile , {
+    loadingMessage: 'Loading',
+    pageLoadErrorMessage: 'Error Loading Page',
+    autoInitialize: true,
+    defaultPageTransition: 'slide',
+    subPageUrlKey: 'ui-page',
+    activePageClass: 'ui-page-active',
+    activeBtnClass: 'ui-btn-active',
+    minScrollBack: 150,
+    touchOverflowEnabled:true 
+  });
+  jQuery.mobile.page.prototype.options.degradeInputs.range='text';
+});</script>
+<script src="rpcl-bin/jquerymobile/js/jquery.mobile-1.1.1.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.general.css" />
+<script src="rpcl-bin/jquerymobile/js/cordova-1.8.1.js"></script>
+<script src="rpcl-bin/jquerymobile/js/phonegap.mobile.js"></script>
+</head>
+<body  >
+<div data-role="page"  id="MCheckBoxExample"  >
+<link id="MCheckBoxExample_css" rel="stylesheet" href="mcheckbox.css" />
+<script id="MCheckBoxExample_js" src="mcheckbox.js"></script>
+<form id="MCheckBoxExample_form" name="MCheckBoxExample_form" method="post"   target="_self"  action="/mcheckbox.php"><input type="hidden" name="serverevent" value=""><input type="hidden" name="serverparams" value="">
+<table id="MCheckBoxExample_table"><tr><td>
+<div id="mcbTwo_outer"  >
+<span id="mcbTwo_p"><input type="checkbox" name="mcbTwo" value="This MCheckBox is cheched by default"    checked="checked"  tabindex="0"   data-fixedsize='true' data-theme='e' data-role='checkbox' id='mcbTwo'    /></span><span id="mcbTwo_l"><label for="mcbTwo">This MCheckBox is cheched by default</label></span>
+</div>
+<div id="mcbOne_outer"  >
+<span id="mcbOne_p"><input type="checkbox" name="mcbOne" value="This MCheckBox is not checked by default"      tabindex="0"   data-fixedsize='true' data-theme='e' data-role='checkbox' id='mcbOne'    /></span><span id="mcbOne_l"><label for="mcbOne">This MCheckBox is not checked by default</label></span>
+</div>
+<div id="Label1_outer"  >
+<div id="Label1"     ><P>MCheckBox allows you to create a&nbsp;checkbox </P>
+<UL>
+<LI>Control the <STRONG>Theme</STRONG> and color variation of a group of MCheckBox with the&nbsp;MobileTheme component associated to them.
+<LI>Change the <STRONG>Caption</STRONG> value.
+<LI>Set it <STRONG>Cheched</STRONG> or unchecked.
+<LI>Change the <STRONG>Font</STRONG> attributes to change its vertical size</LI></UL></div>
+</div>
+<div id="MPanel1_outer"  >
+<div data-role="content" data-theme="a"  id="MPanel1" ><div id="mlBack_outer"  >
+<A HREF="index.html" id="mlBack" 
+             data-icon='home' data-iconpos='left' data-fixedsize='true' data-role='button'  >Home</a>
+</div>
+<div id="lbltitle_outer"  >
+<div id="lbltitle"     >MCheckBox</div>
+</div>
+</div>
+
+</div>
+</td></tr></table>
+</form></div>
+</body>
+</html>
+<!-- MCheckBoxExample end -->

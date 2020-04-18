@@ -1,0 +1,130 @@
+#MAccelerometerExample {
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+#MAccelerometerExample #MAccelerometerExample_form {
+margin-bottom: 0px;
+}
+#MAccelerometerExample #MAccelerometerExample_table {
+width: 320px;
+height: 460px;
+border-width:0;
+border-collapse:separate;
+}
+#MAccelerometerExample #MAccelerometerExample_table td, #MAccelerometerExample #MAccelerometerExample_table th {
+padding:0;
+vertical-align:top;
+}
+#MAccelerometerExample #mtMotionSwitch_outer {
+z-index: 0;
+left: 111px;
+width: 196px;
+height: 28px;
+position: absolute;
+top: 362px;
+
+}
+#MAccelerometerExample #mtMotionSwitch + .ui-slider{width:196px;
+}
+#MAccelerometerExample #lblMotion_outer {
+z-index: 1;
+left: 13px;
+width: 83px;
+height: 25px;
+position: absolute;
+top: 364px;
+
+}
+#MAccelerometerExample #lblMotion {
+ font-family: Arial;
+ font-size: 20px;
+ font-weight: bold;
+ width: 83px;
+height: 25px;
+}
+#MAccelerometerExample #mpBox_outer {
+z-index: 2;
+left: 1px;
+width: 319px;
+height: 355px;
+position: absolute;
+top: 0px;
+
+}
+#MAccelerometerExample #mpBox {
+width: 319px;
+height: 355px;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+#MAccelerometerExample #mpBox_table {
+width: 319px;
+height: 355px;
+border-spacing: 0;
+border: 0;
+border-collapse: collapse;
+box-sizing: border-box;
+}
+#MAccelerometerExample #Image_outer {
+z-index: 0;
+left: 116px;
+width: 80px;
+height: 80px;
+position: absolute;
+top: 137px;
+
+}
+#MAccelerometerExample #Image {
+width:80px;
+ }
+#Image #Image_container {
+width: 80px;
+height: 80px;
+}
+#MAccelerometerExample #lblXAcceleration_outer {
+z-index: 1;
+left: 0px;
+width: 123px;
+height: 33px;
+position: absolute;
+top: 0px;
+
+}
+#MAccelerometerExample #lblXAcceleration {
+ font-family: Helvetica, Arial, sans-serif;
+ font-size: 14px;
+  width: 123px;
+height: 33px;
+}
+#MAccelerometerExample #lblYAcceleration_outer {
+z-index: 2;
+left: 207px;
+width: 112px;
+height: 35px;
+position: absolute;
+top: 0px;
+
+}
+#MAccelerometerExample #lblYAcceleration {
+ font-family: Helvetica, Arial, sans-serif;
+ font-size: 14px;
+ text-align: right;
+ width: 112px;
+height: 35px;
+}
+#MAccelerometerExample #mlBack_outer {
+z-index: 3;
+left: 82px;
+width: 150px;
+height: 35px;
+position: absolute;
+top: 408px;
+
+}
+#MAccelerometerExample #mlBack {
+width:150px;
+height:35px;
+}

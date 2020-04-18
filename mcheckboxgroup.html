@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html  DIR=ltr >
+<head>
+<title>MCheckBoxGroup</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="viewport" content="width=768, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<script src="rpcl-bin/jquerymobile/js/base64.js"></script>
+<script src="rpcl-bin/jquery/jquery-1.7.1.min.js"></script>
+<script src="rpcl-bin/jquerymobile/js/functions.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.mobile-1.1.1.css" />
+<script>
+jQuery(document).bind('mobileinit', function(){
+  jQuery.extend(jQuery.mobile , {
+    loadingMessage: 'Loading',
+    pageLoadErrorMessage: 'Error Loading Page',
+    autoInitialize: true,
+    defaultPageTransition: 'slide',
+    subPageUrlKey: 'ui-page',
+    activePageClass: 'ui-page-active',
+    activeBtnClass: 'ui-btn-active',
+    minScrollBack: 150,
+    touchOverflowEnabled:true 
+  });
+  jQuery.mobile.page.prototype.options.degradeInputs.range='text';
+});</script>
+<script src="rpcl-bin/jquerymobile/js/jquery.mobile-1.1.1.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.general.css" />
+<script src="rpcl-bin/jquerymobile/js/cordova-1.8.1.js"></script>
+<script src="rpcl-bin/jquerymobile/js/phonegap.mobile.js"></script>
+</head>
+<body  >
+<div data-role="page"  id="MCheckBoxGroupExample"  >
+<link id="MCheckBoxGroupExample_css" rel="stylesheet" href="mcheckboxgroup.css" />
+<script id="MCheckBoxGroupExample_js" src="mcheckboxgroup.js"></script>
+<form id="MCheckBoxGroupExample_form" name="MCheckBoxGroupExample_form" method="post"   target="_self"  action="/mcheckboxgroup.php"><input type="hidden" name="serverevent" value=""><input type="hidden" name="serverparams" value=""><input type="hidden" id="mbtCheckSubmitSubmitEvent" name="mbtCheckSubmitSubmitEvent" value="" />
+<table id="MCheckBoxGroupExample_table"><tr><td>
+<div id="mbtCheckSubmit_outer"  >
+<input type="submit" name="mbtCheckSubmit" value="View Checked elements"    tabindex="0"   data-fixedsize='true' id='mbtCheckSubmit'    />
+</div>
+<div id="mpResults_outer"  >
+<div data-role="content" data-theme="a"  id="mpResults" ><div id="lblTitle_outer"  >
+<div id="lblTitle"     ><P><STRONG>Results:</STRONG></P></div>
+</div>
+<div id="lblResults_outer"  >
+<div id="lblResults"     ></div>
+</div>
+</div>
+
+</div>
+<div id="mcgHorizontal_outer"  >
+<table id="mcgHorizontal_table"  title=""  data-role='controlgroup' data-fixedsize='true' data-type='horizontal'  ><tr>
+<td  ><input id="mcgHorizontal_0" type="checkbox" name="mcgHorizontal[0]" value="1"   tabindex="0"    data-theme="c" data-fixedsize="true" /><label for="mcgHorizontal_0"     >one</label></td>
+<td  ><input id="mcgHorizontal_1" type="checkbox" name="mcgHorizontal[1]" value="1"   tabindex="0"    data-theme="c" data-fixedsize="true" /><label for="mcgHorizontal_1"     >two</label></td>
+<td  ><input id="mcgHorizontal_2" type="checkbox" name="mcgHorizontal[2]" value="1"   tabindex="0"    data-theme="c" data-fixedsize="true" /><label for="mcgHorizontal_2"     >three</label></td>
+<td  ><input id="mcgHorizontal_3" type="checkbox" name="mcgHorizontal[3]" value="1"   tabindex="0"    data-theme="c" data-fixedsize="true" /><label for="mcgHorizontal_3"     >four</label></td>
+</tr>
+  </table>
+
+</div>
+<div id="mcgVertical_outer"  >
+<table id="mcgVertical_table"  title=""  data-role='controlgroup' data-fixedsize='true'  ><tr>
+<td  ><input id="mcgVertical_0" type="checkbox" name="mcgVertical[0]" value="1"   tabindex="0"    data-theme="a" data-fixedsize="true" /><label for="mcgVertical_0"     >one</label></td>
+</tr>
+<tr>
+<td  ><input id="mcgVertical_1" type="checkbox" name="mcgVertical[1]" value="1"   tabindex="0"    data-theme="a" data-fixedsize="true" /><label for="mcgVertical_1"     >two</label></td>
+</tr>
+<tr>
+<td  ><input id="mcgVertical_2" type="checkbox" name="mcgVertical[2]" value="1"   tabindex="0"    data-theme="a" data-fixedsize="true" /><label for="mcgVertical_2"     >three</label></td>
+</tr>
+<tr>
+<td  ><input id="mcgVertical_3" type="checkbox" name="mcgVertical[3]" value="1"   tabindex="0"    data-theme="a" data-fixedsize="true" /><label for="mcgVertical_3"     >four</label></td>
+</tr>
+  </table>
+
+</div>
+<div id="lblDescription_outer"  >
+<div id="lblDescription"     ><P>MCheckBoxGroup allows you to create a group of checkboxes. </P>
+<UL>
+<LI>Control the <STRONG>Theme</STRONG> and color variation of a group of MCheckBoxGroup with the MobileTheme component associated to them. </LI>
+<LI>Change the <STRONG>Orientation </STRONG>to orHorizontal to display the group as a buttons set .
+<LI>Add <STRONG>Items</STRONG> that will be the different options on the group.</LI></UL></div>
+</div>
+<div id="MPanel1_outer"  >
+<div data-role="content" data-theme="e"  id="MPanel1" ><div id="mlBack_outer"  >
+<A HREF="index.html" id="mlBack" 
+             data-icon='home' data-iconpos='left' data-fixedsize='true' data-role='button'  >Home</a>
+</div>
+<div id="Label1_outer"  >
+<div id="Label1"     >MCheckBoxGroup</div>
+</div>
+</div>
+
+</div>
+</td></tr></table>
+</form></div>
+</body>
+</html>
+<!-- MCheckBoxGroupExample end -->

@@ -1,0 +1,277 @@
+#MCheckBoxGroupExample {
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+#MCheckBoxGroupExample #MCheckBoxGroupExample_form {
+margin-bottom: 0px;
+}
+#MCheckBoxGroupExample #MCheckBoxGroupExample_table {
+width: 768px;
+height: 1024px;
+border-width:0;
+border-collapse:separate;
+}
+#MCheckBoxGroupExample #MCheckBoxGroupExample_table td, #MCheckBoxGroupExample #MCheckBoxGroupExample_table th {
+padding:0;
+vertical-align:top;
+}
+#MCheckBoxGroupExample #mbtCheckSubmit_outer {
+z-index: 0;
+left: 440px;
+width: 315px;
+height: 43px;
+position: absolute;
+top: 212px;
+
+}
+#MCheckBoxGroupExample #mbtCheckSubmit_outer > div{ 
+width: 315px;
+height: 43px;
+} 
+#MCheckBoxGroupExample #mpResults_outer {
+z-index: 1;
+left: 440px;
+width: 315px;
+height: 491px;
+position: absolute;
+top: 287px;
+
+}
+#MCheckBoxGroupExample #mpResults {
+width: 315px;
+height: 491px;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+#MCheckBoxGroupExample #mpResults_table {
+width: 315px;
+height: 491px;
+border-spacing: 0;
+border: 0;
+border-collapse: collapse;
+box-sizing: border-box;
+}
+#MCheckBoxGroupExample #lblTitle_outer {
+z-index: 0;
+left: 14px;
+width: 123px;
+height: 19px;
+position: absolute;
+top: 8px;
+
+}
+#MCheckBoxGroupExample #lblTitle {
+ font-family: Arial;
+ font-size: 14px;
+ color: CornSilk;
+ width: 123px;
+height: 19px;
+}
+#MCheckBoxGroupExample #lblResults_outer {
+z-index: 1;
+left: 14px;
+width: 282px;
+height: 451px;
+position: absolute;
+top: 29px;
+
+}
+#MCheckBoxGroupExample #lblResults {
+ font-family: Arial;
+ font-size: 16px;
+  width: 282px;
+height: 451px;
+}
+#MCheckBoxGroupExample #mcgHorizontal_outer {
+z-index: 2;
+left: 16px;
+width: 395px;
+height: 107px;
+position: absolute;
+top: 185px;
+
+}
+#MCheckBoxGroupExample #mcgHorizontal {
+border:solid 1px rgb(204, 204, 204);
+-moz-border-radius-topleft: 1px;
+-webkit-border-top-left-radius: 1px;
+border-top-left-radius:1px;
+-moz-border-radius-topright: 1px;
+-webkit-border-top-right-radius: 1px;
+border-top-right-radius:1px;
+-moz-border-radius-bottomright: 1px;
+-webkit-border-bottom-right-radius: 1px;
+border-bottom-right-radius:1px;
+-moz-border-radius-bottomleft: 1px;
+-webkit-border-bottom-left-radius: 1px;
+border-bottom-left-radius:1px;
+}
+#MCheckBoxGroupExample #mcgHorizontal_table {
+height:107px;
+table-layout:fixed;
+padding:0px;
+border-spacing:0px;
+}
+#MCheckBoxGroupExample #mcgHorizontal .td_span {
+overflow:hidden;
+vertical-align: middle;
+white-space:nowrap;
+width: 78.75px;
+height: 107px;
+width:98.75px;
+height:107px;
+white-space:nowrap;
+}
+#MCheckBoxGroupExample #mcgHorizontal .td_header_with_checkbox {
+width: 20px;
+vertical-align: middle;
+color:#FFFFFF;
+background-color:#CCCCCC;
+overflow:hidden;
+white-space:nowrap;
+}
+#MCheckBoxGroupExample #mcgHorizontal .td_with_checkbox {
+width: 20px;
+vertical-align: middle;
+}
+#MCheckBoxGroupExample #mcgHorizontal .CheckListBox_span {
+white-space:nowrap;
+width: 20px;
+}
+#MCheckBoxGroupExample #mcgHorizontal_table .ui-checkbox label{
+width: 99px;
+height: 107px;
+margin-right: -1px;
+}
+#MCheckBoxGroupExample #mcgVertical_outer {
+z-index: 3;
+left: 16px;
+width: 267px;
+height: 248px;
+position: absolute;
+top: 327px;
+
+}
+#MCheckBoxGroupExample #mcgVertical {
+border:solid 1px rgb(204, 204, 204);
+-moz-border-radius-topleft: 1px;
+-webkit-border-top-left-radius: 1px;
+border-top-left-radius:1px;
+-moz-border-radius-topright: 1px;
+-webkit-border-top-right-radius: 1px;
+border-top-right-radius:1px;
+-moz-border-radius-bottomright: 1px;
+-webkit-border-bottom-right-radius: 1px;
+border-bottom-right-radius:1px;
+-moz-border-radius-bottomleft: 1px;
+-webkit-border-bottom-left-radius: 1px;
+border-bottom-left-radius:1px;
+}
+#MCheckBoxGroupExample #mcgVertical_table {
+height:248px;
+table-layout:fixed;
+padding:0px;
+border-spacing:0px;
+}
+#MCheckBoxGroupExample #mcgVertical .td_span {
+overflow:hidden;
+vertical-align: middle;
+white-space:nowrap;
+width: 247px;
+height: 62px;
+height:62px;
+white-space:nowrap;
+}
+#MCheckBoxGroupExample #mcgVertical .td_header_with_checkbox {
+width: 20px;
+vertical-align: middle;
+color:#FFFFFF;
+background-color:#CCCCCC;
+overflow:hidden;
+white-space:nowrap;
+}
+#MCheckBoxGroupExample #mcgVertical .td_with_checkbox {
+width: 20px;
+vertical-align: middle;
+}
+#MCheckBoxGroupExample #mcgVertical .CheckListBox_span {
+white-space:nowrap;
+width: 20px;
+}
+#MCheckBoxGroupExample #mcgVertical_table .ui-checkbox label{
+width: 267px;
+height: 62px;
+}
+#MCheckBoxGroupExample #lblDescription_outer {
+z-index: 4;
+left: 16px;
+width: 747px;
+height: 120px;
+position: absolute;
+top: 46px;
+
+}
+#MCheckBoxGroupExample #lblDescription {
+ font-family: Arial;
+ font-size: 14px;
+  width: 747px;
+height: 120px;
+}
+#MCheckBoxGroupExample #MPanel1_outer {
+z-index: 5;
+left: 0px;
+width: 768px;
+height: 43px;
+position: absolute;
+top: 0px;
+
+}
+#MCheckBoxGroupExample #MPanel1 {
+width: 768px;
+height: 43px;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+#MCheckBoxGroupExample #MPanel1_table {
+width: 768px;
+height: 43px;
+border-spacing: 0;
+border: 0;
+border-collapse: collapse;
+box-sizing: border-box;
+}
+#MCheckBoxGroupExample #mlBack_outer {
+z-index: 0;
+left: 8px;
+width: 107px;
+height: 33px;
+position: absolute;
+top: 5px;
+
+}
+#MCheckBoxGroupExample #mlBack {
+width:107px;
+height:33px;
+}
+#MCheckBoxGroupExample #Label1_outer {
+z-index: 1;
+left: 301px;
+width: 167px;
+height: 33px;
+position: absolute;
+top: 10px;
+
+}
+#MCheckBoxGroupExample #Label1 {
+ font-family: Arial;
+ font-size: 16px;
+ color: Black;
+font-weight: bold;
+ width: 167px;
+height: 33px;
+text-align:center;
+}

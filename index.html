@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html  DIR=ltr >
+<head>
+<title>Index</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="viewport" content="width=768, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<script src="rpcl-bin/jquerymobile/js/base64.js"></script>
+<script src="rpcl-bin/jquery/jquery-1.7.1.min.js"></script>
+<script src="rpcl-bin/jquerymobile/js/functions.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.mobile-1.1.1.css" />
+<script>
+jQuery(document).bind('mobileinit', function(){
+  jQuery.extend(jQuery.mobile , {
+    loadingMessage: 'Loading',
+    pageLoadErrorMessage: 'Error Loading Page',
+    autoInitialize: true,
+    defaultPageTransition: 'slide',
+    subPageUrlKey: 'ui-page',
+    activePageClass: 'ui-page-active',
+    activeBtnClass: 'ui-btn-active',
+    minScrollBack: 150,
+    touchOverflowEnabled:true 
+  });
+  jQuery.mobile.page.prototype.options.degradeInputs.range='text';
+});</script>
+<script src="rpcl-bin/jquerymobile/js/jquery.mobile-1.1.1.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.general.css" />
+<script src="rpcl-bin/jquerymobile/js/cordova-1.8.1.js"></script>
+<script src="rpcl-bin/jquerymobile/js/phonegap.mobile.js"></script>
+</head>
+<body  >
+<div data-role="page"  id="IndexMPage" data-ajax-url="/index.php" >
+<link id="IndexMPage_css" rel="stylesheet" href="index.css" />
+<script id="IndexMPage_js" src="index.js"></script>
+<form id="IndexMPage_form" name="IndexMPage_form" method="post"   target="_self"  action="/index.php"><input type="hidden" name="serverevent" value=""><input type="hidden" name="serverparams" value=""><div id="mlMButton_outer"  >
+<A HREF="mbutton.html" id="mlMButton" 
+             data-theme='a' data-icon='arrow-r' data-iconpos='right' data-fixedsize='true' data-role='button'  >MButton</a>
+</div>
+<div id="mlMCollapsibleSet_outer"  >
+<A HREF="mcollapsibleset.html" id="mlMCollapsibleSet" 
+             data-theme='e' data-icon='arrow-r' data-iconpos='right' data-fixedsize='true' data-transition='slide' data-role='button'  >MCollapsibleSet</a>
+</div>
+<div id="mlMcheckboxGroup_outer"  >
+<A HREF="mcheckboxgroup.html" id="mlMcheckboxGroup" 
+             data-theme='e' data-icon='arrow-r' data-iconpos='right' data-fixedsize='true' data-transition='slide' data-role='button'  >MCheckboxGroup</a>
+</div>
+<div id="mlCheckbox_outer"  >
+<A HREF="mcheckbox.html" id="mlCheckbox" 
+             data-theme='a' data-icon='arrow-r' data-iconpos='right' data-fixedsize='true' data-role='button'  >MCheckBox</a>
+</div>
+<div id="mpTitle_outer"  >
+<div data-role="content" data-theme="a"  id="mpTitle" ><div id="lblHeader_outer"  >
+<div id="lblHeader"     >Mobile Controls' Examples</div>
+</div>
+</div>
+
+</div>
+<div id="mlMCollapsible_outer"  >
+<A HREF="mcollapsible.html" id="mlMCollapsible" 
+             data-theme='a' data-icon='arrow-r' data-iconpos='right' data-fixedsize='true' data-role='button'  >MCollapsible</a>
+</div>
+<div id="mlMlink_outer"  >
+<A HREF="mlink.html" id="mlMlink" 
+             data-theme='e' data-icon='arrow-r' data-iconpos='right' data-fixedsize='true' data-transition='slide' data-role='button'  >MLink</a>
+</div>
+<div id="mlMEdit_outer"  >
+<A HREF="medit.html" id="mlMEdit" 
+             data-theme='a' data-icon='arrow-r' data-iconpos='right' data-fixedsize='true' data-role='button'  >MEdit</a>
+</div>
+<div id="mlMComboBox_outer"  >
+<A HREF="mcombobox.html" id="mlMComboBox" 
+             data-theme='e' data-icon='arrow-r' data-iconpos='right' data-fixedsize='true' data-transition='slide' data-role='button'  >MComboBox</a>
+</div>
+<div id="mlMRadioButton_outer"  >
+<A HREF="mradiobutton.html" id="mlMRadioButton" 
+             data-theme='a' data-icon='arrow-r' data-iconpos='right' data-fixedsize='true' data-role='button'  >MRadioButton</a>
+</div>
+<div id="mlMRadioGroup_outer"  >
+<A HREF="mradiogroup.html" id="mlMRadioGroup" 
+             data-theme='e' data-icon='arrow-r' data-iconpos='right' data-fixedsize='true' data-transition='slide' data-role='button'  >MRadioGroup</a>
+</div>
+<div id="mlMSlider_outer"  >
+<A HREF="mslider.html" id="mlMSlider" 
+             data-theme='a' data-icon='arrow-r' data-iconpos='right' data-fixedsize='true' data-role='button'  >MSlider</a>
+</div>
+<div id="mlMToggle_outer"  >
+<A HREF="mtoggle.html" id="mlMToggle" 
+             data-theme='e' data-icon='arrow-r' data-iconpos='right' data-fixedsize='true' data-transition='slide' data-role='button'  >MToggle</a>
+</div>
+<div id="mlMToolBar_outer"  >
+<A HREF="mtoolbar.html" id="mlMToolBar" 
+             data-theme='a' data-icon='arrow-r' data-iconpos='right' data-fixedsize='true' data-role='button'  >MToolBar</a>
+</div>
+<div id="mlMList_outer"  >
+<A HREF="mlist.html" id="mlMList" 
+             data-theme='e' data-icon='arrow-r' data-iconpos='right' data-fixedsize='true' data-transition='slide' data-role='button'  >MList</a>
+</div>
+<div id="Label1_outer"  >
+<div id="Label1"     ><P>To get a best experience with this site it is recomended to use an iPad.</P>
+<P>To see it in a desktop browser it is recommended to use Chrome (to appreciate the transitions in MLink) or Firefox.</P></div>
+</div>
+</form></div>
+</body>
+</html>
+<!-- IndexMPage end -->

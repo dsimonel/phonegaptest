@@ -1,0 +1,115 @@
+#MCheckBoxExample {
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+#MCheckBoxExample #MCheckBoxExample_form {
+margin-bottom: 0px;
+}
+#MCheckBoxExample #MCheckBoxExample_table {
+width: 768px;
+height: 1024px;
+border-width:0;
+border-collapse:separate;
+}
+#MCheckBoxExample #MCheckBoxExample_table td, #MCheckBoxExample #MCheckBoxExample_table th {
+padding:0;
+vertical-align:top;
+}
+#MCheckBoxExample #mcbTwo_outer {
+z-index: 0;
+left: 387px;
+width: 355px;
+height: 75px;
+position: absolute;
+top: 239px;
+
+}
+#MCheckBoxExample #mcbTwo + label[for=mcbTwo]{ 
+width: 355px;
+height: 75px;
+} 
+#MCheckBoxExample #mcbOne_outer {
+z-index: 1;
+left: 8px;
+width: 363px;
+height: 75px;
+position: absolute;
+top: 239px;
+
+}
+#MCheckBoxExample #mcbOne + label[for=mcbOne]{ 
+width: 363px;
+height: 75px;
+} 
+#MCheckBoxExample #Label1_outer {
+z-index: 2;
+left: 8px;
+width: 747px;
+height: 163px;
+position: absolute;
+top: 51px;
+
+}
+#MCheckBoxExample #Label1 {
+ font-family: Arial;
+ font-size: 14px;
+  width: 747px;
+height: 163px;
+}
+#MCheckBoxExample #MPanel1_outer {
+z-index: 3;
+left: 0px;
+width: 768px;
+height: 43px;
+position: absolute;
+top: 0px;
+
+}
+#MCheckBoxExample #MPanel1 {
+width: 768px;
+height: 43px;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+#MCheckBoxExample #MPanel1_table {
+width: 768px;
+height: 43px;
+border-spacing: 0;
+border: 0;
+border-collapse: collapse;
+box-sizing: border-box;
+}
+#MCheckBoxExample #mlBack_outer {
+z-index: 0;
+left: 8px;
+width: 107px;
+height: 33px;
+position: absolute;
+top: 5px;
+
+}
+#MCheckBoxExample #mlBack {
+width:107px;
+height:33px;
+}
+#MCheckBoxExample #lbltitle_outer {
+z-index: 1;
+left: 288px;
+width: 133px;
+height: 28px;
+position: absolute;
+top: 15px;
+
+}
+#MCheckBoxExample #lbltitle {
+ font-family: Arial;
+ font-size: 16px;
+ color: white;
+font-weight: bold;
+ width: 133px;
+height: 28px;
+text-align:center;
+}

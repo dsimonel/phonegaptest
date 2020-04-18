@@ -1,0 +1,74 @@
+#MCameraExample {
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+#MCameraExample #MCameraExample_form {
+margin-bottom: 0px;
+}
+#MCameraExample #MCameraExample_table {
+width: 320px;
+height: 460px;
+border-width:0;
+border-collapse:separate;
+}
+#MCameraExample #MCameraExample_table td, #MCameraExample #MCameraExample_table th {
+padding:0;
+vertical-align:top;
+}
+#MCameraExample #imgDisplay_outer {
+z-index: 0;
+left: 26px;
+width: 275px;
+height: 243px;
+position: absolute;
+top: 28px;
+
+}
+#MCameraExample #imgDisplay {
+height:243px;
+ }
+#imgDisplay #imgDisplay_container {
+width: 275px;
+height: 243px;
+}
+#MCameraExample #mbtCamera_outer {
+z-index: 1;
+left: 26px;
+width: 273px;
+height: 43px;
+position: absolute;
+top: 286px;
+
+}
+#MCameraExample #mbtCamera_outer > div{ 
+width: 273px;
+height: 43px;
+} 
+#MCameraExample #mbtLibrary_outer {
+z-index: 2;
+left: 26px;
+width: 273px;
+height: 43px;
+position: absolute;
+top: 348px;
+
+}
+#MCameraExample #mbtLibrary_outer > div{ 
+width: 273px;
+height: 43px;
+} 
+#MCameraExample #mlBack_outer {
+z-index: 3;
+left: 82px;
+width: 150px;
+height: 35px;
+position: absolute;
+top: 408px;
+
+}
+#MCameraExample #mlBack {
+width:150px;
+height:35px;
+}
